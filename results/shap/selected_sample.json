@@ -1,0 +1,6 @@
+{
+    "test_sample_index": 3,
+    "actual_label": "Phishing",
+    "predicted_label": "Phishing",
+    "phishing_probability": 1.0
+}

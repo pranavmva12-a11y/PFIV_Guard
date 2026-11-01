@@ -1,0 +1,8 @@
+{
+  "scope": "10 synthetic HTML fixtures; deterministic purpose and PFIV applicability validation only",
+  "cases": 10,
+  "passed": 10,
+  "failed": 0,
+  "not_a_real_world_accuracy_measure": true,
+  "csv": "results/wpfd_pfiv_validation/wpfd_pfiv_fixture_results.csv"
+}

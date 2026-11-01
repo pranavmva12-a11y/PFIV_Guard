@@ -1,0 +1,40 @@
+{
+  "Razorpay": [
+    "razorpay.com",
+    "checkout.razorpay.com",
+    "api.razorpay.com"
+  ],
+  "Stripe": [
+    "stripe.com",
+    "checkout.stripe.com",
+    "js.stripe.com",
+    "api.stripe.com"
+  ],
+  "PayPal": [
+    "paypal.com",
+    "paypalobjects.com"
+  ],
+  "PayU": [
+    "payu.in",
+    "secure.payu.in",
+    "payu.com"
+  ],
+  "Cashfree": [
+    "cashfree.com",
+    "cashfreepayments.com"
+  ],
+  "PhonePe": [
+    "phonepe.com",
+    "phonepe.in"
+  ],
+  "CCAvenue": [
+    "ccavenue.com"
+  ],
+  "BillDesk": [
+    "billdesk.com"
+  ],
+  "Adyen": [
+    "adyen.com",
+    "adyenpayments.com"
+  ]
+}

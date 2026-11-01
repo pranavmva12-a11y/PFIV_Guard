@@ -1,0 +1,11 @@
+Scenario,Expected Purpose,Observed Purpose,Purpose Match,Expected Transaction Intent,Observed Transaction Intent,Intent Match,Expected PFIV,Observed PFIV,PFIV Match,Pass,Purpose Evidence
+Informational page,informational,informational,True,NOT_DETECTED,NOT_DETECTED,True,Not Applicable,Not Applicable,True,True,title: 'encyclopedia' | headings: 'encyclopedia' | headings: 'knowledge base' | description: 'encyclopedia' | description: 'reference information' | description: 'information resource' | page_text: 'encyclopedia' | page_text: 'knowledge base'
+E-commerce catalogue,ecommerce,ecommerce,True,NOT_DETECTED,NOT_DETECTED,True,Not Applicable,Not Applicable,True,True,title: 'online shopping' | description: 'online store' | actions: 'add to cart' | actions: 'buy now' | actions: 'cart' | url_path: 'ecommerce' | page_text: 'online shopping' | page_text: 'add to cart'
+Banking homepage,banking,banking,True,NOT_DETECTED,NOT_DETECTED,True,Not Applicable,Not Applicable,True,True,title: 'online banking' | title: 'banking services' | headings: 'internet banking' | headings: 'net banking' | page_text: 'online banking' | page_text: 'internet banking' | page_text: 'net banking' | page_text: 'savings account'
+Payment gateway marketing page,payment_gateway,payment_gateway,True,POTENTIAL,POTENTIAL,True,Not Applicable,Not Applicable,True,True,title: 'payment gateway' | headings: 'payment processing' | description: 'online payments' | url_path: 'payment gateway' | page_text: 'payment gateway' | page_text: 'payment processing' | page_text: 'accept payments' | page_text: 'payment platform'
+Train booking page,booking,booking,True,NOT_DETECTED,NOT_DETECTED,True,Not Applicable,Not Applicable,True,True,title: 'ticket booking' | page_text: 'ticket booking' | page_text: 'make a reservation' | page_text: 'reservation' | page_text: 'seat availability'
+Login form,unknown,unknown,True,NOT_DETECTED,NOT_DETECTED,True,Not Applicable,Not Applicable,True,True,
+Legitimate payment checkout,unknown,unknown,True,DETECTED,DETECTED,True,Verified,Verified,True,True,
+External attacker endpoint,unknown,unknown,True,DETECTED,DETECTED,True,Suspicious,Suspicious,True,True,
+Processor mismatch,unknown,unknown,True,DETECTED,DETECTED,True,Suspicious,Suspicious,True,True,
+Unverifiable checkout,unknown,unknown,True,DETECTED,DETECTED,True,Unverifiable,Unverifiable,True,True,

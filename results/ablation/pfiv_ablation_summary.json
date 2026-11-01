@@ -1,0 +1,6 @@
+{
+    "cases": 4,
+    "decision_changes_due_to_pfiv": 3,
+    "decision_change_rate_percent": 75.0,
+    "note": "Controlled four-case ablation study. This is a proof-of-concept contribution analysis, not a statistically generalizable accuracy estimate."
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this academic prototype, please cite the project team and the associated report."
+title: "PFIV Guard: Website-Purpose-Aware Risk Assessment and Payment-Flow Integrity Verification"
+authors:
+  - family-names: Dwivedi
+    given-names: Pranav
+  - family-names: Yadav
+    given-names: Aman
+  - family-names: Goyal
+    given-names: Shourya
+version: 0.2.0
+date-released: 2026-11-01
+type: software

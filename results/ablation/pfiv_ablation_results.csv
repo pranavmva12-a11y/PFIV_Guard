@@ -1,0 +1,5 @@
+Test Case,Website Purpose,Transaction Intent,PFIV Status,PFIV Score,Processor,Processor Consistency,External Endpoints,ML Prediction,ML Probability (%),Baseline Without PFIV Score,Baseline Without PFIV,Full System With PFIV Score,Full System With PFIV,Risk Increase Due To PFIV,Decision Changed,Total Analysis Time (s)
+Legitimate payment path,Unknown / Insufficient Evidence,DETECTED,Verified,0,Razorpay,Consistent,1,Legitimate,24.1,24.55,Legitimate,15.34,Legitimate,-9.21,False,0.1419
+External attacker endpoint,Unknown / Insufficient Evidence,DETECTED,Suspicious,65,Not identified,Unknown,1,Legitimate,24.56,24.78,Legitimate,65.0,High Risk,40.22,True,0.1474
+Processor mismatch,Unknown / Insufficient Evidence,DETECTED,Suspicious,55,Stripe,Mismatch,1,Legitimate,24.1,24.55,Legitimate,65.0,High Risk,40.45,True,0.1502
+Unverifiable payment path,Unknown / Insufficient Evidence,DETECTED,Unverifiable,35,Not identified,Unknown,0,Legitimate,22.95,23.98,Legitimate,35.0,Suspicious,11.02,True,0.141

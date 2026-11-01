@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>BankShield Legitimate Checkout Demo</title>
+</head>
+<body>
+    <h1>Secure Checkout</h1>
+    <h2>Razorpay Secure Payment</h2>
+    <p>Demo page for controlled BankShield testing.</p>
+
+    <form action="https://checkout.razorpay.com/pay" method="post">
+        <label>Card Number
+            <input type="text" name="card_number">
+        </label><br><br>
+        <label>CVV
+            <input type="password" name="cvv">
+        </label><br><br>
+        <label>Expiry
+            <input type="text" name="expiry">
+        </label><br><br>
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>

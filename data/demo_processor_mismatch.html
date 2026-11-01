@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BankShield Processor Mismatch Demo</title>
+</head>
+<body>
+
+    <h1>Demo Checkout</h1>
+
+    <h2>Razorpay Secure Payment</h2>
+
+    <p>Complete your payment using the secure Razorpay gateway.</p>
+
+    <form action="https://checkout.stripe.com/pay" method="post">
+
+        <label>Card Number:</label>
+        <input type="text" name="card_number">
+
+        <br><br>
+
+        <label>CVV:</label>
+        <input type="password" name="cvv">
+
+        <br><br>
+
+        <label>Expiry:</label>
+        <input type="text" name="expiry">
+
+        <br><br>
+
+        <button type="submit">Pay Now</button>
+
+    </form>
+
+</body>
+</html>

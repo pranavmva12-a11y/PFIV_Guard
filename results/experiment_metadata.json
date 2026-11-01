@@ -1,0 +1,18 @@
+{
+    "dataset": "UCI Phishing Websites",
+    "uci_id": 327,
+    "instances": 11055,
+    "features": 30,
+    "test_size": 0.2,
+    "train_size": 8844,
+    "test_size_samples": 2211,
+    "random_state": 42,
+    "target_mapping": {
+        "0": "Legitimate",
+        "1": "Phishing"
+    },
+    "models": [
+        "Logistic Regression",
+        "Random Forest"
+    ]
+}

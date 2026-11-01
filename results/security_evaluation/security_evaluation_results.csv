@@ -1,0 +1,5 @@
+Test Case,Website Purpose,Transaction Intent,Expected PFIV,Observed PFIV,PFIV Score,Final Classification,Final Risk Score,ML Prediction,ML Probability (%),Processor,Processor Consistency,External Endpoints,Intermediate Domains,Fetch Time (s),PFIV Analysis Time (s),ML Inference Time (s),Total Analysis Time (s),Pass
+Legitimate payment path,Unknown / Insufficient Evidence,DETECTED,Verified,Verified,0,Legitimate,15.34,Legitimate,24.1,Razorpay,Consistent,1,0,0.003,0.0061,0.1374,0.1465,True
+External attacker endpoint,Unknown / Insufficient Evidence,DETECTED,Suspicious,Suspicious,65,High Risk,65.0,Legitimate,24.56,Not identified,Unknown,1,1,0.0031,0.0047,0.1316,0.1395,True
+Processor mismatch,Unknown / Insufficient Evidence,DETECTED,Suspicious,Suspicious,55,High Risk,65.0,Legitimate,24.1,Stripe,Mismatch,1,0,0.004,0.0065,0.1178,0.1284,True
+Unverifiable payment path,Unknown / Insufficient Evidence,DETECTED,Unverifiable,Unverifiable,35,Suspicious,35.0,Legitimate,22.95,Not identified,Unknown,0,0,0.0033,0.0023,0.1329,0.1385,True
