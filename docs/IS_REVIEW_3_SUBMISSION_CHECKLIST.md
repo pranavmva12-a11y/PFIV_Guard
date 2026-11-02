@@ -31,6 +31,8 @@ This checklist tracks the IS Review 3 requirements other than the live deploymen
 - [Review 1 threat-model mapping](IS_REVIEW_3_THREAT_MODEL_MAPPING.md)
 - [Results, comparison, limitations and future work](IS_REVIEW_3_RESULTS_LIMITATIONS_FUTURE_WORK.md)
 - [Individual contribution statements](IS_REVIEW_3_INDIVIDUAL_CONTRIBUTIONS.md)
+- [Design choices and security mechanisms](IS_REVIEW_3_DESIGN_AND_SECURITY_MECHANISMS.md)
+- [Final presentation outline](IS_REVIEW_3_PRESENTATION_OUTLINE.md)
 - [Offline incident simulation script](../incident_simulation_ba2018.py)
 - [Incident simulation regression tests](../tests/test_incident_simulation_ba2018.py)
 
