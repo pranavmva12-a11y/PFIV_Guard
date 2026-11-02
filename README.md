@@ -203,6 +203,8 @@ The following Review 3 supporting documents are maintained in the repository:
 - [Review 1 threat-model mapping](docs/IS_REVIEW_3_THREAT_MODEL_MAPPING.md) — protected assets, attacker capabilities, attack types, incident-stage mapping and system coverage.
 - [Results, comparison, limitations and future work](docs/IS_REVIEW_3_RESULTS_LIMITATIONS_FUTURE_WORK.md) — UCI model results, controlled PFIV evaluation, ablation, reproduction commands, limitations and research roadmap.
 - [Individual contribution statement](docs/IS_REVIEW_3_INDIVIDUAL_CONTRIBUTIONS.md) — draft based on the Review 1 responsibility allocation; each member must verify and add actual evidence before submission.
+- [Design choices and security mechanisms](docs/IS_REVIEW_3_DESIGN_AND_SECURITY_MECHANISMS.md).
+- [Final Review 3 presentation outline](docs/IS_REVIEW_3_PRESENTATION_OUTLINE.md).
 
 ### Reproduce the safe British Airways-style PFIV simulation
 
