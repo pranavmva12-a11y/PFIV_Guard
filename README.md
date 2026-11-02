@@ -195,3 +195,24 @@ These metrics describe the held-out UCI test split only. They are not the accura
 - `SUBMISSION_STATUS.md` records which academic deliverables are prepared and which require team/institution action.
 - `LICENSE_STATUS.md` records that no open-source licence has been selected; do not assume reuse rights.
 
+## Information Security — Review 3 materials
+
+The following Review 3 supporting documents are maintained in the repository:
+
+- [British Airways 2018 incident case study](docs/IS_REVIEW_3_CASE_STUDY_BA_2018.md) — incident summary, authoritative timeline, impact, root cause, Review 1 threat-model link, PFIV Guard prevent/detect/miss analysis, safe simulation procedure and recommendations.
+- [Review 1 threat-model mapping](docs/IS_REVIEW_3_THREAT_MODEL_MAPPING.md) — protected assets, attacker capabilities, attack types, incident-stage mapping and system coverage.
+- [Results, comparison, limitations and future work](docs/IS_REVIEW_3_RESULTS_LIMITATIONS_FUTURE_WORK.md) — UCI model results, controlled PFIV evaluation, ablation, reproduction commands, limitations and research roadmap.
+- [Individual contribution statement](docs/IS_REVIEW_3_INDIVIDUAL_CONTRIBUTIONS.md) — draft based on the Review 1 responsibility allocation; each member must verify and add actual evidence before submission.
+
+### Reproduce the safe British Airways-style PFIV simulation
+
+Run from the repository root using the pinned dependencies (Python 3.12 is recommended):
+
+```powershell
+python incident_simulation_ba2018.py
+python -m pytest -q tests/test_incident_simulation_ba2018.py
+```
+
+The simulation uses offline synthetic HTML and a reserved .example domain. It makes no network requests, submits no forms, and uses no real credentials or payment data. It writes a JSON result to results/incident_simulations/ba2018_pfiv_simulation_results.json. Preserve the actual terminal output and JSON result as Review 3 evidence; do not report expected results as measured results before running it.
+
+The GitHub Actions workflow runs the repository test suite and WPFD/PFIV fixture validation after pushes and pull requests. Check the latest workflow run before recording the final test count/status in the review report.
